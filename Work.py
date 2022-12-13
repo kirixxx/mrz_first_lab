@@ -151,6 +151,15 @@ class Work :
                         weight.append([float(x) for x in l.split( )])
             return weight
     
+    def add_matrix(self):
+        result_matrix = []
+        for x in range(image.size[0]):
+            rgb_row = []
+        for l in range(len(blocks[0])):
+            line_s = []
+            line_s.append(random.uniform(0.1, 0.1))
+            second_z = list(second_z)   
+    
     
     def trans_image_to_matrix(self):
         result_matrix = []
